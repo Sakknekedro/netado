@@ -10,7 +10,8 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-	//TODO: some way to save traffic amounts between reboots
+	//TODO: some way to preserve traffic amounts between reboots
+	//TODO: refresh button
 	
 	/** Total bytes of outgoing traffic since last reboot */
 	private long upTraffic;
