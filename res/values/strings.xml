@@ -4,5 +4,10 @@
     <string name="app_name">Netadó</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="ft">Ft</string>
+    <string name="zeros">000</string>
+    <string name="price">Ennyibe kerül</string>
+    <string name="mb">MB</string>
+    <string name="traffic">Edigi adatforgalom</string>
 
 </resources>

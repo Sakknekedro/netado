@@ -9,61 +9,61 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/traffic_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="24dp"
         android:layout_marginLeft="24dp"
-        android:text="Edigi adatforgalom"
+        android:text="@string/traffic"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/traffic_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/traffic_text"
+        android:layout_below="@+id/traffic_text"
         android:layout_marginLeft="24dp"
-        android:text="000"
+        android:text="@string/zeros"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/traffic_unit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_toRightOf="@+id/textView2"
-        android:text="MB"
+        android:layout_below="@+id/traffic_text"
+        android:layout_toRightOf="@+id/traffic_amount"
+        android:text="@string/mb"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/price_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView2"
-        android:text="Ennyibe kerül"
+        android:layout_alignLeft="@+id/traffic_text"
+        android:layout_below="@+id/traffic_amount"
+        android:text="@string/price"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/price_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/price_text"
+        android:layout_below="@+id/price_text"
         android:layout_marginLeft="24dp"
-        android:text="000"
+        android:text="@string/zeros"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/price_unit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView4"
-        android:layout_toRightOf="@+id/textView5"
-        android:text="Ft"
+        android:layout_below="@+id/price_text"
+        android:layout_toRightOf="@+id/price_amount"
+        android:text="@string/ft"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
